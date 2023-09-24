@@ -12,7 +12,7 @@ body {
 
 /* Style the header navigation */
 header {
-    background-color: #0074a2;
+    background-color: #1a206b;
     color: #fff;
     padding: 20px 0;
 }
@@ -50,7 +50,7 @@ nav a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0074a2;
+    background-color: #1a206b;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -78,7 +78,7 @@ nav a {
 footer {
     text-align: center;
     font-size: small;
-    background-color: #0074a2;
+    background-color: #1a206b;
     color: #fff;
     padding: 10px 0;
     position: absolute;
