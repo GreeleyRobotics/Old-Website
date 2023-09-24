@@ -81,6 +81,17 @@ footer {
     background-color: #1a206b;
     color: #fff;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.meeting_footer {
+    text-align: center;
+    font-size: small;
+    background-color: #1a206b;
+    color: #fff;
+    padding: 10px 0;
     position: relative !important;
     bottom: 0;
     width: 100%;
