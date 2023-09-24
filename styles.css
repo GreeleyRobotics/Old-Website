@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header navigation */
+header {
+    background-color: #0074a2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the homepage section */
+#home {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074a2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Style other sections as needed */
+#about, #events, #projects, #blog, #contact {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #events h2, #projects h2, #blog h2, #contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Keep the previous CSS code as is */
+
+/* Add new styles for the footer */
+footer {
+    text-align: center;
+    font-size: small;
+    background-color: #0074a2;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: small;
+    margin-top: 3px;
+}
+
+/* Style the social icons container */
+.social-icons {
+    margin-top: 8px;
+}
+
+/* Style the Instagram image */
+.social-icons img {
+    width: 30px; /* Adjust the width to your preference */
+    height: auto; /* Maintain the aspect ratio */
+}
