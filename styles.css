@@ -1,16 +1,13 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color and font styles */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
-/* Style the header navigation */
 header {
     background-color: #1a206b;
     color: #fff;
@@ -32,7 +29,6 @@ nav a {
     color: #fff;
 }
 
-/* Style the homepage section */
 #home {
     text-align: center;
     padding: 100px 0;
@@ -58,7 +54,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Style other sections as needed */
 #about, #events, #projects, #blog, #contact {
     background-color: #fff;
     padding: 40px;
@@ -72,9 +67,6 @@ nav a {
     margin-bottom: 20px;
 }
 
-/* Keep the previous CSS code as is */
-
-/* Add new styles for the footer */
 footer {
     text-align: center;
     font-size: small;
@@ -102,13 +94,17 @@ footer p {
     margin-top: 3px;
 }
 
-/* Style the social icons container */
 .social-icons {
     margin-top: 8px;
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Style the Instagram image */
 .social-icons img {
-    width: 30px; /* Adjust the width to your preference */
-    height: auto; /* Maintain the aspect ratio */
+    width: 30px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
 }
