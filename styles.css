@@ -1,13 +1,16 @@
+/* Reset some default styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
+/* Set a background color and font styles */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
+/* Style the header navigation */
 header {
     background-color: #1a206b;
     color: #fff;
@@ -21,7 +24,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2%; /* Adjust for spacing between items */
 }
 
 nav a {
@@ -29,82 +32,77 @@ nav a {
     color: #fff;
 }
 
+/* Style the homepage section */
 #home {
     text-align: center;
-    padding: 100px 0;
+    padding: 10% 0; /* Adjust padding for different screen sizes */
 }
 
 #home h1 {
-    font-size: 36px;
+    font-size: 4vw; /* Responsive font size based on viewport width */
 }
 
 #home p {
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 2vw; /* Responsive font size based on viewport width */
+    margin-top: 2%; /* Adjust margin for spacing */
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1% 2%; /* Responsive padding based on viewport width */
     background-color: #1a206b;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 2%; /* Adjust margin for spacing */
     font-weight: bold;
 }
 
+/* Style other sections as needed */
 #about, #events, #projects, #blog, #contact {
     background-color: #fff;
-    padding: 40px;
-    margin: 20px;
+    padding: 4% 2%; /* Responsive padding based on viewport width */
+    margin: 2%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #about h2, #events h2, #projects h2, #blog h2, #contact h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 3vw; /* Responsive font size based on viewport width */
+    margin-bottom: 2%; /* Adjust margin for spacing */
 }
 
+/* Add new styles for the footer */
 footer {
     text-align: center;
-    font-size: small;
+    font-size: 1vw; /* Responsive font size based on viewport width */
     background-color: #1a206b;
     color: #fff;
-    padding: 10px 0;
+    padding: 1% 0;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.meeting_footer {
-    text-align: center;
-    font-size: small;
-    background-color: #1a206b;
-    color: #fff;
-    padding: 10px 0;
-    position: relative !important;
-    bottom: 0;
-    width: 100%;
-}
-
 footer p {
-    font-size: small;
-    margin-top: 3px;
+    font-size: 1vw; /* Responsive font size based on viewport width */
+    margin-top: 0.3%; /* Adjust margin for spacing */
 }
 
+/* Style the social icons container */
 .social-icons {
-    margin-top: 8px;
+    margin-top: 0.4%; /* Adjust margin for spacing */
     transition: transform 0.3s ease-in-out;
 }
 
+/* Style the Instagram image */
 .social-icons img {
-    width: 30px; 
+    width: 2.5vw; /* Responsive width based on viewport width */
     height: auto;
-    margin-right: 10px; 
+    margin-right: 1%; /* Adjust margin for spacing */
 }
 
 .social-icons img:hover {
     transform: scale(1.2);
 }
+
