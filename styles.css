@@ -84,6 +84,17 @@ footer {
     width: 100%;
 }
 
+.meeting_footer {
+    text-align: center;
+    font-size: 1vw; /* Responsive font size based on viewport width */
+    background-color: #1a206b;
+    color: #fff;
+    padding: 1% 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 footer p {
     font-size: 1vw; /* Responsive font size based on viewport width */
     margin-top: 0.3%; /* Adjust margin for spacing */
@@ -105,4 +116,3 @@ footer p {
 .social-icons img:hover {
     transform: scale(1.2);
 }
-
